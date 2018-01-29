@@ -15,9 +15,6 @@ import javax.persistence.Table;
 @Entity(name = "PersonAddress")
 public class PersonAddress implements Serializable {
 
-	/**
-	 * lorenzo.terribili@nais-solutions.it created on Jan 25, 2018
-	 */
 	private static final long serialVersionUID = -5677259187741425615L;
 
 	@Id
@@ -70,13 +67,6 @@ public class PersonAddress implements Serializable {
 	public int hashCode() {
 		return Objects.hash(person, address);
 	}
-
-	/* (non-Javadoc)
-	 * @see java.lang.Object#toString()
-	 *
-	 * lorenzo.terribili@nais-solutions.it
-	 *  created on Jan 29, 2018
-	 */
 	@Override
 	public String toString() {
 		return "PersonAddress [person=" + person + ", address=" + address + "]";
@@ -86,9 +76,6 @@ public class PersonAddress implements Serializable {
 }
 class PersonAddressId implements Serializable {
 
-	/**
-	 * lorenzo.terribili@nais-solutions.it created on Jan 29, 2018
-	 */
 	private static final long serialVersionUID = -5845870128071792121L;
 	private Long person;
 	private Long address;
@@ -151,13 +138,6 @@ class PersonAddressId implements Serializable {
 	public int hashCode() {
 		return Objects.hash(person, address);
 	}
-
-	/* (non-Javadoc)
-	 * @see java.lang.Object#toString()
-	 *
-	 * lorenzo.terribili@nais-solutions.it
-	 *  created on Jan 29, 2018
-	 */
 	@Override
 	public String toString() {
 		return "PersonAddressId [person=" + person + ", address=" + address + "]";

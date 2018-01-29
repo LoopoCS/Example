@@ -19,10 +19,6 @@ import org.hibernate.annotations.NaturalId;
 @Entity(name = "Person")
 public class Person implements Serializable {
 
-	/**
-	 * lorenzo.terribili@nais-solutions.it
-	 *  created on Jan 25, 2018
-	 */
 	private static final long serialVersionUID = 2754260606958578049L;
 
 	@Id
@@ -143,13 +139,6 @@ public class Person implements Serializable {
 	public int hashCode() {
 		return Objects.hash(registrationNumber);
 	}
-
-	/* (non-Javadoc)
-	 * @see java.lang.Object#toString()
-	 *
-	 * lorenzo.terribili@nais-solutions.it
-	 *  created on Jan 29, 2018
-	 */
 	@Override
 	public String toString() {
 		return "Person [id=" + id + ", registrationNumber=" + registrationNumber + ", lastName=" + lastName

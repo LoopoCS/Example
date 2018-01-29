@@ -18,9 +18,6 @@ import javax.persistence.Table;
 @Entity(name = "Address")
 public class Address implements Serializable {
 
-	/**
-	 * lorenzo.terribili@nais-solutions.it created on Jan 25, 2018
-	 */
 	private static final long serialVersionUID = 3321581384377657629L;
 
 	@Id
@@ -86,12 +83,6 @@ public class Address implements Serializable {
 		return Objects.hash(street, number, postalCode);
 	}
 
-	/* (non-Javadoc)
-	 * @see java.lang.Object#toString()
-	 *
-	 * lorenzo.terribili@nais-solutions.it
-	 *  created on Jan 29, 2018
-	 */
 	@Override
 	public String toString() {
 		return getId().toString();
