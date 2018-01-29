@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: nais-starter-rest-spatial
+Implementation-Version: 1.0.0
+Built-By: lterribili
+Implementation-Vendor-Id: it.nais.rest.spatial
+Build-Jdk: 1.8.0_151
+Implementation-URL: http://projects.spring.io/spring-boot/nais-starter
+ -rest-spatial/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Nais srl
+Main-Class: boot.Application
+

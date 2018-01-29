@@ -1,0 +1,4 @@
+it/nais/rest/spatial/artek/boot/Application.class
+it/nais/rest/spatial/artek/config/Connection.class
+it/nais/rest/spatial/artek/config/JpaUtils.class
+it/nais/rest/spatial/artek/mobile/base/Person.class
